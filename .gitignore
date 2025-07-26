@@ -1,0 +1,19 @@
+# Ignorar archivos de entorno y dependencias
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+node_modules/
+# Ignorar archivos temporales de editores
+*.swp
+*.swo
+*.bak
+.DS_Store
+# Ignorar archivos de salida
+*.out
+*.tmp
+# Ignorar dependencias de MCP/ADK
+adk_mcp_samples/__pycache__/
+adk_mcp_samples/*.pyc
