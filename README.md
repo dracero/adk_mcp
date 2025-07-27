@@ -28,10 +28,10 @@ cd adk_mcp/MCP_ADK
 2. Instala las dependencias:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+pip install uv
+uv sync
 ```
+
 
 3. Crea el archivo `.env` en la raíz del proyecto:
 
@@ -42,13 +42,22 @@ GOOGLE_API_KEY=tu_api_key_de_gemini
 
 ## Ejecución
 
-Ejecuta el asistente desde la carpeta del script:
+Ejecuta el asistente desde la carpeta del script MCP_ADK. DE la siguiente manera para trabajar con linea de comandos:
 
 ```bash
-python adk_mcp_samples/agent.py
+uv run -m adk_mcp_samples.agent
 ```
 
-Verás un prompt interactivo. Escribe comandos como:
+o
+
+
+```bash
+adk web
+```
+
+Desde la misma carpeta para poder usar la built-in web interface de ADK
+
+Para el caos de la linea de comandos verás un prompt interactivo. Escribe comandos como:
 
 - `lista los archivos en la carpeta`
 - `lee el archivo config.txt`
