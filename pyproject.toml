@@ -5,5 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastembed>=0.7.1",
     "google-adk>=1.8.0",
+    "python-dotenv>=1.1.1",
+    "toolbox-core>=0.4.0",
 ]
