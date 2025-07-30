@@ -5,8 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "asyncio-mqtt>=0.16.2",
+    "black>=25.1.0",
+    "fastapi>=0.116.1",
     "fastembed>=0.7.1",
+    "flake8>=7.3.0",
     "google-adk>=1.8.0",
+    "httpx>=0.28.1",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.1.0",
     "python-dotenv>=1.1.1",
     "toolbox-core>=0.4.0",
+    "websockets>=15.0.1",
 ]
