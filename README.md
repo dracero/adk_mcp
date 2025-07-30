@@ -45,7 +45,7 @@ GOOGLE_API_KEY=tu_api_key_de_gemini
 Ejecuta el asistente desde la carpeta del script MCP_ADK. DE la siguiente manera para trabajar con linea de comandos:
 
 ```bash
-uv run -m adk_mcp_samples.agent
+uvicorn adk_mcp_samples.agent:app --reload
 ```
 
 o
